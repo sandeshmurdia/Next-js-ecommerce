@@ -1,5 +1,5 @@
 
-# Ecommerce Vue App
+# Next ecommerce App
 
 ### Follow these steps to try out Zipy
 
