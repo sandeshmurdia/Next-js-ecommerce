@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Header from 'components/header';
 import { useRouter } from 'next/router';
-import zipy from 'zipy-staging-nextjs';
-zipy.init('80be3435');
+
 
 type LayoutType = {
   title?: string;
