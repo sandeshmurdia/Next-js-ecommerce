@@ -14,10 +14,7 @@ npm install
 ```bash
 npm run dev
 ```
-and  
-```bash
-npm run build
-```
+
 
 5. Clone and run [Error Thrower](https://github.com/sandeshmurdia/Error-thrower)(which will throw random network errors for your app) and run it. 
 
