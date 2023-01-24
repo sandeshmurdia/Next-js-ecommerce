@@ -7,13 +7,11 @@ import { randomfrontenderror } from 'api/randomfrontenderror';
 
 const ShoppingCart = () => {
   randomerror();
-  randomfrontenderror();
 
   const { cartItems } = useSelector((state: RootState)  => state.cart);
 
   const priceTotal = () => {
     randomerror();
-    randomfrontenderror();
     let totalPrice = 0;
     if(cartItems.length > 0) {
       cartItems.map(item => totalPrice += item.price * item.count);

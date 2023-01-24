@@ -24,7 +24,7 @@ if(isProduction) {
 }
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-  zipy.init('your project key');
+  zipy.init('c06c2204');
  
 return<>
   <Fragment>

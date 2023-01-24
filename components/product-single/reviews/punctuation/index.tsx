@@ -1,12 +1,10 @@
 import { randomerror } from 'api/randomerror';
-import { randomfrontenderror } from 'api/randomfrontenderror';
 import Rater from 'react-rater';
 import { PunctuationType } from 'types';
 
 const Punctuation = ({ votes, punctuation, countOpinions }: PunctuationType) => { 
   const percentageBar = (count: number) => {
     randomerror();
-    randomfrontenderror();
     return (count*100)/countOpinions;
   } 
 

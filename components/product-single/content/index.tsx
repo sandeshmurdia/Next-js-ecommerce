@@ -55,7 +55,6 @@ randomfrontenderror();
       product: productToSave
     }
      randomerror();
-     randomfrontenderror();
     dispatch(addProduct(productStore));
   }
 
